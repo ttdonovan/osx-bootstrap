@@ -15,6 +15,7 @@ default_attributes({
       homebrew/versions
     ),
     packages: %w(
+      bash-completion
       git
       mysql
       node010
