@@ -6,6 +6,7 @@ cache_options(path: "#{current_dir}/../../.chef/checksums", skip_expires: true)
 
 role_path "#{current_dir}/../roles"
 cookbook_path [
+  "#{current_dir}/../../cookbooks",
   "#{current_dir}/../../berks-cookbooks"
 ]
 
