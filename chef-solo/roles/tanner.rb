@@ -4,6 +4,7 @@ description "role for tanner setup"
 run_list %w(
   role[base]
 
+  recipe[dotfiles]
   recipe[git_config]
 )
 
