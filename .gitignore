@@ -5,6 +5,7 @@
 .*.sw[a-z]
 *.un~
 pkg/
+.DS_Store
 
 # Berkshelf
 .vagrant
@@ -16,5 +17,9 @@ Gemfile.lock
 bin/*
 .bundle/*
 
+# Chef
+.chef/cache/
+
+# Kitchen
 .kitchen/
 .kitchen.local.yml
