@@ -12,6 +12,7 @@ default_attributes({
   homebrew: {
     packages: %w(
       git
+      tig
     )
   }
 })
