@@ -24,6 +24,7 @@ $ berks --version
 ```
 
 ```
+$ berks install
 $ berks vendor
 ```
 
